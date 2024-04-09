@@ -1,4 +1,7 @@
 ## SQL SERVER PARA INICIANTES
+
+Trilha de aprendizagem é ideal para estudantes e profissionais que estejam começando sua jornada profissional na área de tecnologia da informação com objetivo de aprender a projetar e implementar bancos de dados em SQL.
+
 ### CRONOGRAMA DE ESTUDOS
 
 A origem dos primiros bancos de dados, SQL e TSQL
