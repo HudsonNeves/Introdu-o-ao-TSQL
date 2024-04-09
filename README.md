@@ -5,21 +5,21 @@ Trilha de aprendizagem é ideal para estudantes e profissionais que estejam come
 
 O SQL Server é um sistema de gerenciamento de banco de dados relacional poderoso e versátil, amplamente utilizado por empresas de todos os tamanhos. Ele oferece recursos avançados de armazenamento, processamento e análise de dados, bem como ferramentas de administração e segurança robustas.
 
-### Arquivos de banco de dados (MDF e LMF)
+### Arquivos de banco de dados (MDF e LDF)
 
 MDF (Master Data File)
 
 O arquivo MDF é o arquivo principal do banco de dados, contendo todas as informações sobre a estrutura e os dados do banco.
 
-LMF (Log File)
+LDF (Log Data File)
 
-### Estrutura dos arquivos MDF e LMF
+### Estrutura dos arquivos MDF e LDF
 
 Arquivo MDF
 
 O arquivo MDF é composto por páginas de dados, índices e metadados, organizados em uma estrutura hierárquica para otimizar o acesso e o desempenho.
 
-Arquivo LMF
+Arquivo LDF
 
 O arquivo LMF é organizado em registros de log, que armazenam informações sobre as transações realizadas no banco de dados, permitindo a recuperação em caso de falhas.
 
