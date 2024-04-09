@@ -1,6 +1,6 @@
 ## SQL SERVER PARA INICIANTES
 
-Trilha de aprendizagem é ideal para estudantes e profissionais que estejam começando sua jornada profissional na área de tecnologia da informação com objetivo de aprender a projetar e implementar bancos de dados O TSQL (Transact-SQL) é a linguagem de programação utilizada pelos servidores de banco de dados da Microsoft, oferecendo uma ampla variedade de tipos de dados para armazenar e manipular informações de forma eficiente.
+Trilha de aprendizagem é ideal para estudantes e profissionais que estejam começando sua jornada profissional na área de tecnologia da informação com objetivo de aprender a projetar e implementar bancos de dados, o TSQL (Transact-SQL) é a linguagem de programação utilizada pelos servidores de banco de dados da Microsoft, oferecendo uma ampla variedade de tipos de dados para armazenar e manipular informações de forma eficiente.
 
 ### CRONOGRAMA DE ESTUDOS
 
