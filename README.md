@@ -21,7 +21,7 @@ O arquivo MDF é composto por páginas de dados, índices e metadados, organizad
 
 Arquivo LDF
 
-O arquivo LMF é organizado em registros de log, que armazenam informações sobre as transações realizadas no banco de dados, permitindo a recuperação em caso de falhas.
+O arquivo LDF é organizado em registros de log, que armazenam informações sobre as transações realizadas no banco de dados, permitindo a recuperação em caso de falhas.
 
 O arquivo LMF é responsável por armazenar o log de transações, permitindo o rastreamento e a recuperação de alterações feitas no banco de dados.
 ### CRONOGRAMA DE ESTUDOS
