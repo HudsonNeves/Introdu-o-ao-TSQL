@@ -11,7 +11,7 @@ MDF (Master Data File)
 
 O arquivo MDF é o arquivo principal do banco de dados, contendo todas as informações sobre a estrutura e os dados do banco.
 
-LDF (Log Data File)
+LDF (Log Data File)(???)
 
 ### Estrutura dos arquivos MDF e LDF
 
@@ -23,7 +23,7 @@ Arquivo LDF
 
 O arquivo LDF é organizado em registros de log, que armazenam informações sobre as transações realizadas no banco de dados, permitindo a recuperação em caso de falhas.
 
-O arquivo LMF é responsável por armazenar o log de transações, permitindo o rastreamento e a recuperação de alterações feitas no banco de dados.
+O arquivo LDF é responsável por armazenar o log de transações, permitindo o rastreamento e a recuperação de alterações feitas no banco de dados.
 ### CRONOGRAMA DE ESTUDOS
 
 A origem dos primiros bancos de dados, SQL e TSQL
