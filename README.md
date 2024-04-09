@@ -13,7 +13,7 @@ O arquivo MDF é o arquivo principal do banco de dados, contendo todas as inform
 
 LMF (Log File)
 
-Estrutura dos arquivos MDF e LMF
+### Estrutura dos arquivos MDF e LMF
 
 Arquivo MDF
 
