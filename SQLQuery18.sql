@@ -1,3 +1,18 @@
+-- CRIADO TRIGGERS EM NOVA TABELA
+CREATE TABLE tbproducthistory (
+	code int NOT NULL,
+	description varchar(150) null,
+	salevalue numeric (18,2) null,
+	active bit null,
+	dtupdate datetime,
+	updatetype varchar(100)
+);
+-- Consultando a tabela
+select * from tbproducthistory
+go
+-- Descrevendo a estrutura da tebela
+sp_columns tbproducthistory
+-- Criando o trigger
 CREATE trigger UpdateProducts ON tbproduct
 FOR UPDATE AS
 BEGIN
@@ -12,7 +27,7 @@ SET NOCOUNT ON;
 END;
 
 UPDATE tbproduct
-SET description = '3DS MAX-MODELAGEM, RENDER, EFEITOS 1ª Edição'
+SET description = '3DS MAX-MODELAGEM, RENDER, EFEITOS 1Âª EdiÃ§Ã£o'
 where code = 1;
 select * from tbproducthistory;
 select * from tbproduct;
