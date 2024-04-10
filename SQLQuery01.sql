@@ -1,7 +1,7 @@
--- Implementações T-SQL
--- Criação da DB - DDL
+-- ImplementaÃ§Ãµes T-SQL
+-- CriaÃ§Ã£o da DB - DDL
 create database ProjetoTSQL
--- Criação TB - DDL
+-- CriaÃ§Ã£o TB - DDL
 create table tbcostumer(
 	Code int identity (1,1),
 	Nome varchar (100)null,
