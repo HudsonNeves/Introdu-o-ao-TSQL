@@ -1,4 +1,4 @@
--- Atualização de Registros
+-- AtualizaÃ§Ã£o de Registros
 update
 	tbcostumer
 set
