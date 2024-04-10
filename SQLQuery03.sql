@@ -53,7 +53,7 @@ select top 3
 	from [dbo].[tbcostumer]
 where Nome like '%Silva%'
 
--- Consulta registros com ordenação
+-- Consulta registros com ordenaÃ§Ã£o
 select
 	[code]
 	,[Nome]
