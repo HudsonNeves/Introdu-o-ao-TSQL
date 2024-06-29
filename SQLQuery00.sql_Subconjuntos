@@ -1,31 +1,40 @@
--- LINGUAGEM DE CONSULTA ESTRUTURADA - SQL
--- Padronização SQL
--- Subconjuntos da Linguagem SQL
-/*
-	DML - Linguagem de manipulação de dados
-	UPDATE - usado para alterar dados
-	SELECT - Consulta de dados
-	DELETE - excluir registros
-	INSERT - usado para inserir dados
-*/
-/*
-	DDL - Linguagem de definição de dados
-	ALTER - permite alterar um objeto do banco
-	CREATE - permite criar objetos
-	DROP - permite apagar um objeto do banco	
-*/
-/*
-	DCL - Linguagem de controle de dados
-	GRANT - concede privilégios
-	REVOKE - remove privilégios
-*/
-/*
-	DTL - Linguagem de transação de dados
-	BEGIN - marca um inicio da transação
-	COMMIT - encerra uma transação
-	ROLLBACK - encerra a transação, desfazendo todas as operação
-*/
-/*
-	DQL - Linguagem de consulta de dados
-	SELECT - consulta
-*/
+SUBCONJUNTOS DA LINGUAGEM SQL
+1.DDL (Data Definition Language): Comandos para definir estrutura de banco de dados.
+Comando SQL	Descrição
+CREATE TABLE	Cria uma nova tabela
+ALTER TABLE	Modifica a estrutura de uma tabela
+DROP TABLE	Remove uma tabela
+CREATE INDEX	Cria um índice em uma tabela
+DROP INDEX	Remove um índice de uma tabela
+
+2.DML (Data Manipulation Language): Comandos para manipular dados.
+Comando SQL	Descrição
+INSERT INTO	Insere novos registros em uma tabela
+UPDATE		Atualiza registros em uma tabela
+DELETE FROM	Remove registros de uma tabela
+MERGE		Combina operações INSERT, UPDATE, DELETE
+SELECT INTO	Copia resultados de uma consulta para uma nova tabela
+
+3.DQL (Data Query Language): Comandos para consultar dados.
+Comando SQL	Descrição
+SELECT		Recupera dados de uma ou mais tabelas
+FROM		Especifica a tabela fonte da consulta
+WHERE		Filtra registros baseado em condições
+GROUP BY	Agrupa resultados baseado em colunas
+HAVING		Filtra grupos baseado em condições
+
+4.DCL (Data Control Language): Comandos para controle de acesso e segurança.
+Comando SQL	Descrição
+GRANT		Concede permissões a usuários/roles
+REVOKE		Remove permissões de usuários/roles
+DENY		Nega permissões a usuários/roles
+AUDIT		Registra tentativas de acesso a objetos
+ALTER USER	Modifica as propriedades de um usuário
+
+5.TCL (Transaction Control Language): Comandos para gerenciamento de transações.
+Comando SQL	Descrição
+COMMIT		Confirma as mudanças feitas pela transação
+ROLLBACK	Desfaz as mudanças feitas pela transação
+SAVEPOINT	Define um ponto de salvamento na transação
+SET TRANSACTION	Especifica características de uma transação
+
